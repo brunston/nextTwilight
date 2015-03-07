@@ -1,6 +1,6 @@
 Custom MIT Licence (plus Attribution)
-
-Copyright (c) 2015 
+Author: brupoon
+Copyright (c) 2015 brupoon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -12,10 +12,10 @@ the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-Attribution shall be given to the Author in a end-user visable ("Viewable")
-location. The Author is defined as named in the repository or source. A Viewable
-location includes placement in all copies or substantial portions of the Software
-and in all Derivative Works.
+The Author is defined as named in the license header. Attribution must be given
+to the Author in a end-user visable location in all copies or substantial portions
+of the Software and in all Derivative Works, including but not limited to the license
+location.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
