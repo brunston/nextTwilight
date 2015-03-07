@@ -1,0 +1,24 @@
+hyperledaAGN: select t, mabs, vmaxs where type is not null and agnclass='S1'
+hyperleda1 && hyperleda1-noname: N/A
+bhbDataC/V: blackhole.berkeley.edu (V[erbose] for column names, C[ondensed] for just data)
+	Thoughts: Reff (effective radius) versus BH mass
+	Word choice: tend, appear to be, could be a relationship
+	Col. 0: Distance (Mpc)
+	Col. 1: MBH (Msun)
+	Col. 2: MBH lower (68%)
+	Col. 3: MBH upper (68%)
+	Col. 4: sigma (km/s)
+	Col. 5: sigma lower (68%)
+	Col. 6: sigma upper (68%)
+	Col. 7: log(LV/Lsun)
+	Col. 8: error in log(LV/Lsun)
+	Col. 9: log(L_3.6/Lsun) -- Spitzer 3.6 um, from Sani et al. 2011
+	Col. 10: error in log(L_3.6/Lsun)
+	Col. 11: Mbulge/Msun
+	Col. 12: radius of influence (arcsec)
+	Col. 13: Reff (V-band, arcsec)
+	Col. 14: Reff (i-band, arcsec) -- SDSS DR7, from Beifiori et al. 2012
+	Col. 15: Reff (3.6 um, arcsec) -- from Sani et al. 2011
+
+hyperledaQmabs: select mabs, type, agnclass, t where type is not null and agnclass = 'Q' and t<>10
+hyperledaSeyfertmabs: select mabs, type, agnclass, t where type is not null and (agnclass = 'S1' or agnclass = 'S1n') and t<>10
